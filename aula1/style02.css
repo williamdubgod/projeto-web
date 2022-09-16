@@ -1,0 +1,36 @@
+.main{
+    text-align: justify;
+    padding: 20px;
+    max-width: 800px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+    font-size: 25px;
+}
+
+section{
+    width: 33%;
+   /* border: 1px solid red;*/
+    float: left;
+}
+
+article{
+    padding: 15px;
+}
+
+img{
+    width: 65%;
+}

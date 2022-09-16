@@ -5,3 +5,15 @@ color: rgb(72, 184, 72);
 h1 {
     font-family: 'Lobster';
 }
+
+/* 
+Criar um elemento de formatação pelo ID (#) 
+
+
+*/
+
+/* Criar um elemento de formatação pelo class (.) */
+.formatarCampoTexto{
+    background-color: bisque;
+    color: brown;
+}

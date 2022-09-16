@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline;
+}
+
+p{
+    text-align: justify;
+}
+
+#topoo_geral{
+    background-image: url(../img/Fiap.png);
+    height: 175px;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: #003300;
+    color:white
+}
+
+#principal{
+    width: 650px;
+    margin: 0 auto;
+}

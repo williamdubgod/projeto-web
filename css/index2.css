@@ -1,0 +1,25 @@
+.formatarCxTexto{
+    background-color: bisque;
+    color: brown;
+    
+}
+
+body{
+    background-color: #E0FFFF;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titForm1{
+    color: blue;
+}
+
+#titForm2{
+    color: green;
+}
+
+.formataTextoJustificado{
+    text-align: justify;
+    font-size: 12px;
+    color: rgb(145, 0, 249);
+}
