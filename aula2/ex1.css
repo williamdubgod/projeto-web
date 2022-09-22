@@ -1,0 +1,17 @@
+.fundoAzul {
+    background-color: rgb(240,248,255);
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    min-width: 300px;
+    margin: 50px auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.esquerda {
+    text-align: left;
+}

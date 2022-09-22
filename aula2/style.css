@@ -1,0 +1,23 @@
+.fundoAzul {
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 457px;
+    margin: auto;
+    border: solid 1px;
+}
+
+tbody > tr > td {
+    border-left: 1px solid red;
+}
+
+tfoot {
+    text-align: center;
+}
+
+.dataCentralizada {
+    text-align: center;
+}
