@@ -1,0 +1,25 @@
+table {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 20%;
+}
+
+tbody {
+    background-color: rgb(240,248,255);
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+thead {
+   background-color: rgb(168, 218, 213);
+   font-weight: bold;
+}
+
+tbody :hover {
+    background-color: rgb(168, 218, 213);
+}
+
