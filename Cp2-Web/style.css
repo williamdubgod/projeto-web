@@ -1,0 +1,111 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(102,187,34);
+    padding: 1px;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+span {
+    text-align: center;
+}
+
+.carrinho {
+    width: 20px;
+}
+
+.compras {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botao {
+    width: 75px;
+    background-color: rgb(102,187,34);
+    border: solid black 1px;
+    color: white;
+}
+
+.texto {
+    width: 50px;
+}
+
+.camisas {
+    width: 130px;
+}
+
+#lote1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#lote2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#lote3 {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+form {
+    width: 40%;
+}
+
+.textoForm {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+#botaoForm {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 10px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+}
