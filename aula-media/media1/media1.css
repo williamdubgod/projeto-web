@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+article {
+    height: 100px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 480px) {
+    .bloco1, .bloco2, .bloco3, .bloco4 {
+        width: 100%;
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .bloco1, .bloco2, .bloco3, .bloco4 {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        background-color: yellowgreen;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .bloco1, .bloco2, .bloco3 {
+        box-sizing: border-box;
+        float: left;
+        width: 33.33%;
+        background-color: cyan;
+    }
+
+    .bloco4 {
+        clear: both;
+        width: 100%;
+        background-color: orangered;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .bloco1, .bloco2, .bloco3, .bloco4 {
+        box-sizing: border-box;
+        width: 25%;
+        background-color: blueviolet;
+        float: left;
+    }
+}

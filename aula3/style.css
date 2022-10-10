@@ -1,0 +1,13 @@
+.formataCaixa {
+    background-color: yellow;
+    color: red;
+}
+
+#idEnviar {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+form{
+    text-align: center;
+}

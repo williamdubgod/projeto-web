@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form method="GET" action="cadastro.php">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" class="formataCaixa"><br/>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" class="formataCaixa"><br/>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" class="formataCaixa"><br/>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="sexoM" name="sexo">Masculino
+        <input type="radio" id="sexoF" name="sexo">Feminino
+        <input type="radio" id="sexoI" name="sexo">Não quero falar<br/>
+        <label for="programacao">Linguagens:</label><br/>
+        <input type="checkbox" id="javaScript">javaScript<br/>
+        <input type="checkbox" id="python">Python<br/>
+        <input type="submit" value="Enviar" id="idEnviar">
+    </form>
+</body>
+</html>
