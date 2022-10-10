@@ -1,0 +1,137 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: rgb(240, 239, 239);
+    padding: 30px;
+    font-size: 25px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+strong {
+    color: brown;
+    transition: 1s;
+}
+
+strong:hover {
+    zoom: 110%;
+    cursor: pointer;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(240, 239, 239);
+}
+
+.imgBanner {
+    border-radius: 10px;
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 30px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+li:hover {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.artigos {
+   display: flex;
+}
+
+article {
+    border: solid rgb(240, 239, 239) 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icons {
+    width: 50%;
+}
+
+h2 {
+    color: brown;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.btn {
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(53, 52, 52);
+    color: whitesmoke;
+    border-style: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+h3:hover {
+    background-color: orangered;
+}
+
+.divParagrafos {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.paragrafos {
+    font-size: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(53, 52, 52);
+    padding: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
