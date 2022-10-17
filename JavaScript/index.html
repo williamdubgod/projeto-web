@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <label for="txtNumero2">Número</label>
+    <input type="text" id="txtNumero1">
+    <label for="txtNumero2">Número</label>
+    <input type="text" id="txtNumero2">
+    <input type="button" value="Mostrar o menor" 
+        onclick="mostraMenor(
+            document.querySelector('#txtNumero1').value,
+            document.querySelector('#txtNumero2').value)">
+    <hr>
+    <label for="txtNumero3">Número</label>
+    <input type="text" id="txtNumero3">
+    <label for="txtNumero4">Número</label>
+    <input type="text" id="txtNumero4">
+    <input type="button" value="Mostrar o menor" 
+        onclick="mostraMenor(
+            document.querySelector('#txtNumero3').value,
+            document.querySelector('#txtNumero4').value)">
+    <div id="resultado"></div>
+</body>
+<script src="main.js"></script>
+</html>
